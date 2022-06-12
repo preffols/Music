@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		
+		*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins' sans-serif;
+}
+
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: url(images/3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+nav{
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 16px;
+}
+nav ul{
+	list-style: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: blue;
+	transition: all 0.5s ease;
+}
+
+
+
+nav ul li ul{
+	display: none;
+}
+
+ 
+
+.logo{
+    width:150px ;
+    margin: 20px 0;
+    cursor: pointer;
+    border: 5px solid blue;
+}
+
+nav ul{
+	background-color: #000;
+	width: 100%;
+	margin-top: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    color: #fff;
+
+}
+
+
+
+.text{
+    padding: 20px 8%;
+    font-size: 20px;
+
+}
+
+.staff{
+	width: 100%;
+	height: 2000px;
+}
+
+nav.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10px 8%;
+	background-color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	transition: padding 1s;
+
+}
+nav.sticky ul{
+	width: auto;
+}
+.bout{
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 0.5);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3 ease 0s;
+	font-size: 16px;
+	color: white;
+}
+.bout:hover{
+	background-color: rgba(0, 136, 169, 1);
+	transition: 0.5 ease;
+}
+hr{
+	border: 5px solid blue;
+}
+
+.active{
+	background: red;
+}
+
+input{
+ font-size: 20px;
+}
+
+h5{
+ font-family: curse;
+ font-weight: bolder;
+ font-size: 34px;
+ text-align: left;
+ padding: 10px 8%
+
+}
+
+button{
+	background-color:rgba(0, 136, 169, 0.8);
+	color: white;
+	font-family: verdana;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px; 
+	padding:9px 15px;
+	cursor: pointer;
+	transition: all 0.3 ease 0s;
+}
+button a{
+    background-color:rgba(0, 136, 169, 0.8);
+	color: white;
+	font-family: verdana;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px; 
+	padding:9px 15px;
+	cursor: pointer;
+	transition: all 0.3 ease 0s;
+	text-decoration: none;
+}
+button:hover{
+	background-color:rgba(0, 136, 169, 1);
+
+}
+
+.butt{
+	justify-content: space-between;
+}
+
+.sound{
+	background-color:black;
+	opacity: 0.9;
+	padding: 10px 20px;
+}
+.taito{
+	font-family: arial;
+	font-size: 18px;
+	color: white;
+}
+
+.new{
+	border: 2px solid white;
+}
+
+
+
+
+
+	</style>
+	<title>Home</title>
+</head>
+<body>
+<div class="header">
+	<nav id="navbar">
+		<img src="images/brave.jpg" class="logo">
+		<ul id="menu">
+			<li><input type="text" name="search..." placeholder="Search..."></li>
+			<li><a href="home.php">Home</a></li>
+			<li><a href="services.html">Our services</a>
+				<ul>
+					<li><a href="#">Graphic designing</a></li>
+					<li><a href="#">Modelling</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="about.php"><button class="bout">About us</button></a></li>
+
+		</ul>
+	</nav>
+</div>
+<hr>
+<div class="Tracks">
+<h5>Top 10 Urban Trend</h5>
+
+<div class="sound">
+	<p class="taito">1.Mastol - Anyway ft Beracah.mp3</p>
+	<audio src="audio/Mastol - Anyway ft Beracah.mp3" controls="play" controls="download" ></audio>
+	<div class="butt">
+		<a href="audio/Mastol - Anyway ft Beracah.mp3"><button style="font-family: arial"   style="font-size: 20px" >Play</button>   <button>Download</button></a>
+	</div>
+	<br>
+	<hr class="new">
+</div>
+
+
+<div class="sound">
+	<p class="taito">2.BraveBeaTs-ft-Tsaka107-Too-Late.mp3</p>
+	<audio src="audio/BraveBeaTs-ft-Tsaka107-Too-Late-.mp3" controls="play" controls="download" ></audio>
+	<div class="butt">
+		<a href="audio/BraveBeaTs-ft-Tsaka107-Too-Late-.mp3"><button style="font-family: arial"   style="font-size: 20px" >Play</button>   <button>Download</button></a>
+	</div>
+	<br>
+	<hr class="new">
+</div>
+
+<div class="sound">
+	<p class="taito">3.Bee Jay - Madoo.mp3</p>
+	<audio src="audio/BraveBeaTs-ft-Tsaka107-Too-Late-.mp3" controls="play" controls="download" ></audio>
+	<div class="butt">
+		<a href="audio/Bee Jay - Madoo.mp3"><button style="font-family: arial"   style="font-size: 20px" >Play</button>   <button>Download</button></a>
+	</div>
+	<br>
+	<hr class="new">
+</div>
+
+<div class="sound">
+	<p class="taito">4.ZONKE-Kamodzi..mp3</p>
+	<audio src="audio/BraveBeaTs-ft-Tsaka107-Too-Late-.mp3" controls="play" controls="download" ></audio>
+	<div class="butt">
+		<a href="audio/ZONKE-Kamodzi..mp3"><button style="font-family: arial"   style="font-size: 20px" >Play</button>   <button>Download</button></a>
+	</div>
+	<br>
+	<hr class="new">
+</div>
+
+
+
+
+
+ 
+</div>
+
+
+
+
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+<p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+<p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <p class="text">
+ 	This platform stands out from the rest of the websites around the globe due to its interactivity and responsiveness which is a great deal in as much as user experience is concerned. it has been duly noted that people are frequently using this site to upload their songs and also download alot of trending songs. End users are also bennefiting from the same project due to the services provided such as graphic designing, modelling among others. This platform is a self sponsored and everything that is uploaded here is fully censored by individuals who are assigned on such course therefore if anything if found questionable you are advised to notify the management and that everything should work smoothly due to the mutual support pumped in so as to achieve greatness. This project is basically designed to run for a couple months before fully activating it. This is as the case due to the reasons of inquering if the project is offering maximum user satisafaction and also indeed if individuals are able to use the platform easily. Indeed theres much to be done as this is just the preamble, so feel free to bring up your views so that all together we get this thing running quicly and smoothly.
+ 	lastly i thank you for taking much of your time reading this acknowledgment. may you stay blessed and am wishing greatnes upon ypur way. until we meet again
+ 	Good Bye!
+ </p>
+
+ <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var menu = document.getElementById("menu");
+
+function myFunction() {
+  if (window.pageYOffset >= menu.offsetTop) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

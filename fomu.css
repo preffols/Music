@@ -1,0 +1,44 @@
+body{
+	background-image: url(images/3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.1px;
+}
+
+.forms{
+	background-color: black;
+	text-align: center;
+	font-family: montserrat;
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+
+}
+hr{
+	border: 5px solid black;
+}
+.instruction{
+	text-align: center;
+	font-family: montserrat;
+    font-weight: bold;
+	font-size: 35px;
+
+}
+
+.sub{
+	background-color: white;
+	color: darkblue;
+	font-size: 24px;
+	font-weight: bolder;
+	padding: 5px 15px;
+	height: 40px;
+	width: 150px;
+
+}
+
+.sub:hover{
+	background-color:blue;
+	color:white;
+
+	cursor: pointer;
+}

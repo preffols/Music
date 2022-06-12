@@ -1,0 +1,139 @@
+
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ 	font-family: montserrat, sans-serif;
+ }
+
+
+.container{
+ 	max-height: 100vh;
+ 	width: 100%;
+ 	background-color: #131414;
+ 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/bet.jpg);
+ 	overflow: hidden;
+ }
+
+ .navbar{
+ 	position: fixed;
+ 	top: 0;	
+ 	left: 0;
+ 	width: 100%;
+ 	z-index: 10;
+ 	height: 5rem;
+
+ }
+
+ .menu{
+ 	max-width: 72rem;
+ 	width: 100%;
+ 	height: auto;
+ 	margin: 0 auto;
+ 	padding: 0 2rem;
+ 	display: flex;	
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	color: white;
+ }
+
+.dmenu{
+	height: 4rem;
+	width:3rem;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+}
+
+.bar{
+	width: 1.9rem;
+	height: 1.5px;
+	border-radius: 2px;
+	background:#eee;
+	transition: 0.5s;
+	position: relative;
+}
+
+.bar::before, .bar::after{
+	content: '';	
+	position: absolute;	
+	width: inherit;
+	height: inherit;
+	background:#eee;
+	transition: 0.3s;
+}
+
+.bar::before{
+	transform: translateY(-9px);
+}
+
+.bar::after{
+	transform: translateY(9px);
+}
+.main-container{
+	overflow: hidden;
+}
+
+.main{
+	position: relative;
+	width: 100%;
+	left: 0;
+	z-index: 5;
+	overflow-y: hidden;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	transition: 0.3s;
+
+}
+
+header{
+	 min-height: 100vh;
+	 width: 100%;
+	 background-image:  url(images/bet.jpg);
+	 position: relative;
+}
+
+.overlay{
+	position: absolute;
+	width: 100px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background:rgba(0,0,0,0.712);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color:white;
+}
+
+.btn{
+	margin-top: 1rem;
+	padding: 0.6rem 1.8rem;
+	background:#e20f2f;
+	border:none;
+	border-radius: 25px;
+	color:#fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+}
+ 
+ .container .active .bar{
+ 	transform: rotate(360deg);
+ 	background:transparent;
+ }
+
+ .container .active .bar::before{
+ 	transform: translateY(0) rotate(45deg);
+ }
+
+  .container .active .bar::after{
+ 	transform: translateY(0) rotate(-45deg);
+ }
+
+   .container .active .main{
+   	
+   }

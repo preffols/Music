@@ -1,0 +1,79 @@
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ 	font-family: verdana;
+
+ }
+
+ .main{
+ 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/bet.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size:cover;
+ 	background-position: center;
+ 	width: 100%;
+ 	height: 100vh;
+ }
+
+ nav{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	padding-top: 40px;
+ 	padding-left: 10%;
+ 	padding-right: 10%
+ }
+
+ .logo{
+ 	color: white;
+ 	font-size: 28px;
+ 	font-family: verdana;
+ 	font-weight: bold;
+ }
+ .ho{
+ 	height: 50px;
+ 	width: 50px;
+ }
+
+ span{
+ 	color: #ea1538;
+ }
+ nav ul li{
+ 	list-style: none;
+ 	display: inline-block;
+ 	padding: 10px 20px;
+
+ }
+
+ nav ul li a{
+ 	color: white;
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	font-size: 22px;
+ }
+
+ nav ul li a:hover{
+ 	color: #ea1538;
+ 	transition: .3s; 
+ }
+
+ button{
+ 	border: none;
+ 	background:#ea1538;
+ 	padding: 12px 10px;
+ 	border-radius: 20px;
+ 	color: white;
+ 	font-weight: bold;
+ 	font-size: 18px;
+ 	transition: .4s;
+ }
+
+ button:hover{
+     transform: scale(1.2);
+     cursor: pointer;
+ }
+
+ hr{
+ 	border:3px solid white;
+ 	margin-top: 10px;
+ }

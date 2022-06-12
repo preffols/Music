@@ -1,0 +1,25 @@
+*{
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ 	font-family: montserrat, sans-serif;
+ }
+
+ .hero{
+ 	width: 100%;
+ 	height: 100vh;
+ 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/bet.jpg);
+ 	background-size:cover;
+ 	background-position: center;
+ }
+
+ nav{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	padding-top: 40px;
+ 	padding-left: 10%;
+ 	padding-right: 10%
+ }
+
+  
