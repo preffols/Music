@@ -45,13 +45,13 @@ $songMp3 = uploadFile($_FILES['songMp3'],$songName);
 	}
 	$updateDate = date("Y-m-d");
 
-$sql1 = "INSERT INTO song(
+$sql1 = "INSERT INTO songs(
 		songName,
-		songDetails,
+		otherArtist,
 		songPhoto,
 		songMp3,
 		updateDate,
-		artistId 
+		artistInfoId 
 		) VALUES(
 		'{$songName}',
 		'{$songDetails}',

@@ -169,11 +169,11 @@
 }
 
 
-.search-box:>hover > .search-btn{
+.search-box:hover > .search-btn{
 	background-color: white;
 }
 
-.search-box:>hover > .search-txt{
+.search-box:hover > .search-txt{
 	width: 300px;
 }
 
@@ -181,4 +181,10 @@
 	outline-color: white;
 	height: 25px;
 	width: 25px;
+}
+
+.text{
+    padding: 20px 8%;
+    font-size: 20px;
+
 }

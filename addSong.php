@@ -66,7 +66,7 @@ $artists = getArtist();
 
 				<?php  foreach ($artists as $key => $artist): ?>
 
-					<option value="<?= $artist['artistId'] ?> "> <?= $artist['artistName'] ?></option>
+					<option value="<?= $artist['artistInfoId'] ?> "> <?= $artist['nickName'] ?></option>
 
 			
 			<?php endforeach ?>

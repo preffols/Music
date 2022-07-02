@@ -1,4 +1,4 @@
-</<?php 
+<?php 
 
 // function to get all artist from database
 
@@ -6,12 +6,12 @@ function getArtist($value='')
 {
 
 global $conn;
-$sq7 = "SELECT * FROM artist";
+$sq7 = "SELECT * FROM artistInfo";
 $result = mysqli_query($conn, $sq7);
  
  $artists = array();
 
- while($row=mysqli_fetch_assoc($result)) {
+ while($artist=mysqli_fetch_assoc($result)) {
  	array_push($artists, $artist);
  }
 return $artists;
@@ -24,7 +24,7 @@ return $artists;
  {
  	global $conn;
 
- 	$sql4 = "SELECT * FROM artist WHERE artistId = {$id}";
+ 	$sql4 = "SELECT * FROM artistInfo WHERE artistInfoId = {$id}";
  	$result = mysqli_query($conn, $sql4);
 
  	
